@@ -6,8 +6,7 @@ import Context from '../../context/Context';
 import { AntDesign } from '@expo/vector-icons';
 import { HandlerStateChangeEvent, PanGestureHandler, ScrollView, State } from "react-native-gesture-handler";
 
-import empty from '../../img/relaxing.png';
-import LottieView from 'lottie-react-native';
+import empty from "../../img/relaxing.png";
 
 const { width, height} = Dimensions.get('window');
 const MAX_HEIGHT = height * .41;
